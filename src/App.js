@@ -1,6 +1,7 @@
 
 import './App.css';
 import Banner from './Components/Banner/Banner';
+import Body from './Components/Body/Body';
 import Header from './Components/Header/Header';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header/>
       <Banner/>
+      <Body/>
     </div>
   );
 }
