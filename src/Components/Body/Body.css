@@ -1,7 +1,14 @@
 .body{
+    padding: 10px 200px;
+}
+
+.body > h1 {
+    margin: 20px 0;
+}
+
+.grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 10px 200px;
 }
 
 .body_catogories_containers{

@@ -11,23 +11,26 @@ import petCarePic from "./PetCare.jpg";
 function Body() {
   return (
     <div className="body">
-      <div className="body_catogories_containers">
-        <Catogories image={vegetablesPic} name={"Vegetables"} />
-      </div>
-      <div className="body_catogories_containers">
-        <Catogories image={fruitsPic} name={"Fruits"} />
-      </div>
-      <div className="body_catogories_containers">
-        <Catogories image={snacksPic} name={"Snacks"} />
-      </div>
-      <div className="body_catogories_containers">
-        <Catogories image={biscuitsPic} name={"Biscuits"} />
-      </div>
-      <div className="body_catogories_containers">
-        <Catogories image={coldDrinksPic} name={"Cold Drinks"} />
-      </div>
-      <div className="body_catogories_containers">
-        <Catogories image={petCarePic} name={"Pet Care"} />
+      <h1>Categories</h1>
+      <div className="grid">
+        <div className="body_catogories_containers">
+          <Catogories image={vegetablesPic} name={"Vegetables"} />
+        </div>
+        <div className="body_catogories_containers">
+          <Catogories image={fruitsPic} name={"Fruits"} />
+        </div>
+        <div className="body_catogories_containers">
+          <Catogories image={snacksPic} name={"Snacks"} />
+        </div>
+        <div className="body_catogories_containers">
+          <Catogories image={biscuitsPic} name={"Biscuits"} />
+        </div>
+        <div className="body_catogories_containers">
+          <Catogories image={coldDrinksPic} name={"Cold Drinks"} />
+        </div>
+        <div className="body_catogories_containers">
+          <Catogories image={petCarePic} name={"Pet Care"} />
+        </div>
       </div>
     </div>
   );
