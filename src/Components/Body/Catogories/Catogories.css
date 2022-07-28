@@ -1,0 +1,18 @@
+.body_catogories{
+    background-color: #91df9d;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+}
+
+.body_catogories > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.body_catogories > p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}

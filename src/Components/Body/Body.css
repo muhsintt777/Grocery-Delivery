@@ -1,0 +1,12 @@
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 200px;
+}
+
+.body_catogories_containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
