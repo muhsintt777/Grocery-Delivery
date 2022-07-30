@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
+import SearchIcon from "../../assets/icons/SearchIcon";
+
 function Header() {
+  const [user, setUser] = useState(false);
   return (
     <div className="header">
       <div className="header_logo">
@@ -12,8 +15,12 @@ function Header() {
       </div>
       <div className="header_searchBar">
         <input type="text" placeholder="Search" />
-        <button>Sea</button>
+        <button>
+          <SearchIcon />
+        </button>
       </div>
+      {user ? <p>TRUE</p> : <p>FALSE</p>}
+      {user && <p>Not Logged In</p>}
       <div className="header_login">
         <p>login</p>
       </div>

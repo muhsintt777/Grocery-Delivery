@@ -8,14 +8,18 @@ import biscuitsPic from "./Biscuits.jpg";
 import coldDrinksPic from "./ColdDrinks.jpg";
 import petCarePic from "./PetCare.jpg";
 
+import { Link } from "react-router-dom";
+
 function Body() {
   return (
     <div className="body">
       <h1>Categories</h1>
       <div className="grid">
-        <div className="body_catogories_containers">
-          <Catogories image={vegetablesPic} name={"Vegetables"} />
-        </div>
+        <Link to="/vegetables">
+          <div className="body_catogories_containers">
+            <Catogories image={vegetablesPic} name={"Vegetables"} />
+          </div>
+        </Link>
         <div className="body_catogories_containers">
           <Catogories image={fruitsPic} name={"Fruits"} />
         </div>
