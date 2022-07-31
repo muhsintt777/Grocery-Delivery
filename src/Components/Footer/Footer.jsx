@@ -1,5 +1,6 @@
 import React from "react";
 import FacebookIcon from "../../assets/icons/FacebookIcon";
+import TwitterIcon from "../../assets/icons/TwitterIcon";
 import "./Footer.css";
 
 function Footer() {
@@ -9,7 +10,12 @@ function Footer() {
         <p>&#169; Green Commerce Private Limited 2016-2022</p>
       </div>
       <div className="footer_icons">
-        <FacebookIcon />
+        <div className="footer_icon_container">
+          <FacebookIcon />
+        </div>
+        <div className="footer_icon_container">
+          <TwitterIcon />
+        </div>
       </div>
     </div>
   );
