@@ -1,5 +1,6 @@
 import React from "react";
 import FacebookIcon from "../../assets/icons/FacebookIcon";
+import InstagramIcon from "../../assets/icons/InstagramIcon";
 import TwitterIcon from "../../assets/icons/TwitterIcon";
 import "./Footer.css";
 
@@ -15,6 +16,9 @@ function Footer() {
         </div>
         <div className="footer_icon_container">
           <TwitterIcon />
+        </div>
+        <div className="footer_icon_container">
+          <InstagramIcon />
         </div>
       </div>
     </div>
