@@ -20,9 +20,11 @@ function Body() {
             <Catogories image={vegetablesPic} name={"Vegetables"} />
           </div>
         </Link>
-        <div className="body_catogories_containers">
-          <Catogories image={fruitsPic} name={"Fruits"} />
-        </div>
+        <Link to="/fruits">
+          <div className="body_catogories_containers">
+            <Catogories image={fruitsPic} name={"Fruits"} />
+          </div>
+        </Link>
         <div className="body_catogories_containers">
           <Catogories image={snacksPic} name={"Snacks"} />
         </div>

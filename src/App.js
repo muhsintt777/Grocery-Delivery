@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
+import Fruits from "./Pages/Fruits/Fruits";
 import HomePage from "./Pages/HomePage";
 import Vegetables from "./Pages/Vegetables";
 
@@ -17,6 +18,10 @@ function App() {
         <Route
           path="/vegetables"
           element={<Vegetables/>}
+        />
+        <Route
+          path="/fruits"
+          element={<Fruits/>}
         />
       </Routes>
       <Footer />

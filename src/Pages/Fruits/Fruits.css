@@ -1,0 +1,15 @@
+.fruits_container {
+    padding: 20px 150px;
+}
+
+.fruits_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.fruits_grid_item_container {
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
