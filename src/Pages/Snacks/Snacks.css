@@ -1,0 +1,15 @@
+.snacks_container {
+    padding: 20px 150px;
+}
+
+.snacks_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.snacks_grid_item_container {
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

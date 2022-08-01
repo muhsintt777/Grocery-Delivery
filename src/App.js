@@ -4,6 +4,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Fruits from "./Pages/Fruits/Fruits";
 import HomePage from "./Pages/HomePage";
+import Snacks from "./Pages/Snacks/Snacks";
 import Vegetables from "./Pages/Vegetables";
 
 function App() {
@@ -22,6 +23,10 @@ function App() {
         <Route
           path="/fruits"
           element={<Fruits/>}
+        />
+        <Route
+          path="/snacks"
+          element={<Snacks/>}
         />
       </Routes>
       <Footer />
